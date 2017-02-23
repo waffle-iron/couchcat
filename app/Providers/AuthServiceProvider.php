@@ -1,6 +1,6 @@
 <?php
 
-namespace couchcat\Providers;
+namespace Couchcat\Providers;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'couchcat\Model' => 'couchcat\Policies\ModelPolicy',
+        'Couchcat\Model' => 'Couchcat\Policies\ModelPolicy',
     ];
 
     /**

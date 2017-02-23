@@ -1,6 +1,6 @@
 <?php
 
-namespace couchcat\Exceptions;
+namespace Couchcat\Exceptions;
 
 use Exception;
 use Illuminate\Auth\AuthenticationException;

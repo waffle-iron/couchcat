@@ -171,11 +171,11 @@ return [
         /*
          * Application Service Providers...
          */
-        couchcat\Providers\AppServiceProvider::class,
-        couchcat\Providers\AuthServiceProvider::class,
-        // couchcat\Providers\BroadcastServiceProvider::class,
-        couchcat\Providers\EventServiceProvider::class,
-        couchcat\Providers\RouteServiceProvider::class,
+        Couchcat\Providers\AppServiceProvider::class,
+        Couchcat\Providers\AuthServiceProvider::class,
+        // Couchcat\Providers\BroadcastServiceProvider::class,
+        Couchcat\Providers\EventServiceProvider::class,
+        Couchcat\Providers\RouteServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
 
     ],
@@ -209,7 +209,7 @@ return [
         'File' => Illuminate\Support\Facades\File::class,
         'Gate' => Illuminate\Support\Facades\Gate::class,
         'Hash' => Illuminate\Support\Facades\Hash::class,
-        'Image' => Intervention\Image\Facades\Image::class
+        'Image' => Intervention\Image\Facades\Image::class,
         'Lang' => Illuminate\Support\Facades\Lang::class,
         'Log' => Illuminate\Support\Facades\Log::class,
         'Mail' => Illuminate\Support\Facades\Mail::class,

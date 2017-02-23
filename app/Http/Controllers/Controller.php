@@ -1,6 +1,6 @@
 <?php
 
-namespace couchcat\Http\Controllers;
+namespace Couchcat\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

@@ -12,7 +12,7 @@
 */
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
-$factory->define(couchcat\User::class, function (Faker\Generator $faker) {
+$factory->define(Couchcat\User::class, function (Faker\Generator $faker) {
     static $password;
 
     return [

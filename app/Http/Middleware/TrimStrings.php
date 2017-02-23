@@ -1,6 +1,6 @@
 <?php
 
-namespace couchcat\Http\Middleware;
+namespace Couchcat\Http\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\TrimStrings as BaseTrimmer;
 

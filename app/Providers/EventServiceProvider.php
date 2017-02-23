@@ -1,6 +1,6 @@
 <?php
 
-namespace couchcat\Providers;
+namespace Couchcat\Providers;
 
 use Illuminate\Support\Facades\Event;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -13,8 +13,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'couchcat\Events\SomeEvent' => [
-            'couchcat\Listeners\EventListener',
+        'Couchcat\Events\SomeEvent' => [
+            'Couchcat\Listeners\EventListener',
         ],
     ];
 

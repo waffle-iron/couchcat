@@ -30,7 +30,7 @@ return [
     ],
 
     'stripe' => [
-        'model' => couchcat\User::class,
+        'model' => Couchcat\User::class,
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],

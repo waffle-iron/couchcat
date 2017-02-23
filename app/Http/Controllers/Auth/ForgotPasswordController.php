@@ -1,8 +1,8 @@
 <?php
 
-namespace couchcat\Http\Controllers\Auth;
+namespace Couchcat\Http\Controllers\Auth;
 
-use couchcat\Http\Controllers\Controller;
+use Couchcat\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
 
 class ForgotPasswordController extends Controller

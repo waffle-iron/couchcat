@@ -1,6 +1,6 @@
 <?php
 
-namespace couchcat\Providers;
+namespace Couchcat\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

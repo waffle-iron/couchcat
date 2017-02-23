@@ -1,9 +1,9 @@
 <?php
 
-namespace couchcat\Http\Controllers\Auth;
+namespace Couchcat\Http\Controllers\Auth;
 
-use couchcat\User;
-use couchcat\Http\Controllers\Controller;
+use Couchcat\User;
+use Couchcat\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 

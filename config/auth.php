@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => couchcat\User::class,
+            'model' => Couchcat\User::class,
         ],
 
         // 'users' => [
