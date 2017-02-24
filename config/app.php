@@ -167,7 +167,8 @@ return [
          * Package Service Providers...
          */
         Laravel\Tinker\TinkerServiceProvider::class,
-
+        Intervention\Image\ImageServiceProvider::class,
+        
         /*
          * Application Service Providers...
          */
@@ -176,7 +177,8 @@ return [
         // Couchcat\Providers\BroadcastServiceProvider::class,
         Couchcat\Providers\EventServiceProvider::class,
         Couchcat\Providers\RouteServiceProvider::class,
-        Intervention\Image\ImageServiceProvider::class,
+        Couchcat\Providers\CouchdbServiceProvider::class,
+        
 
     ],
 
