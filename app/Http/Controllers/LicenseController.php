@@ -14,7 +14,7 @@ class LicenseController extends Controller
      */
     public function index()
     {
-        //
+        return view('license.index');
     }
 
     /**
@@ -41,10 +41,10 @@ class LicenseController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \Couchcat\Licenses  $licenses
+     * @param  \Couchcat\License  $license
      * @return \Illuminate\Http\Response
      */
-    public function show(License $licenses)
+    public function show(License $license)
     {
         //
     }
@@ -52,10 +52,10 @@ class LicenseController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \Couchcat\Licenses  $licenses
+     * @param  \Couchcat\License  $license
      * @return \Illuminate\Http\Response
      */
-    public function edit(License $licenses)
+    public function edit(License $license)
     {
         //
     }
@@ -64,10 +64,10 @@ class LicenseController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \Couchcat\Licenses  $licenses
+     * @param  \Couchcat\License  $license
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, License $licenses)
+    public function update(Request $request, License $license)
     {
         //
     }
@@ -75,10 +75,10 @@ class LicenseController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \Couchcat\Licenses  $licenses
+     * @param  \Couchcat\License  $license
      * @return \Illuminate\Http\Response
      */
-    public function destroy(License $licenses)
+    public function destroy(License $license)
     {
         //
     }
