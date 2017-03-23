@@ -1,9 +1,45 @@
+@import "bourbon";
+@import 'neat';
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-// Fonts
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+html,
+body {
+  font: {
+    size: 16px;
+    family: 'Roboto', sans-serif;
+  }
+  margin: 0;
+  padding: 0;
+  @include grid-container;
+}
 
-// Variables
-@import "variables";
+h1, h2, h3, h4, h5, h6, td {
+  font-weight: normal;
+}
 
-// Bootstrap
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+ul, ol, li {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+  list-style-type: none;
+}
+
+// top nav
+nav {
+    background-color: #000;
+    height: 50px;
+}
+
+nav li {
+    display: inline-block;
+    width: 10%;
+    padding: 15px;
+    & a {
+        text-decoration: none;
+        color: #fff;
+        padding: 15px;
+        &:hover {
+            background-color: #666;
+        }
+    }
+}

@@ -11,10 +11,7 @@
         <header>
             <nav>
                 <ul>
-                    <li><a href="/stations">Stations</a></li>
-                    <li><a href="/patrons">Patrons</a></li>
-                    <li><a href="/webcats">Webcats</a></li>
-                    <li><a href="/stats">Statistics</a></li>
+                    <li><a href="/license">Licenses</a></li>
                 </ul>
             </nav>
         </header>
