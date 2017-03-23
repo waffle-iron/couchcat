@@ -14,7 +14,8 @@ class LicenseController extends Controller
      */
     public function index()
     {
-        return view('license.index');
+        $licenses = License::all();
+        return view('license.index',compact('licenses'));
     }
 
     /**
