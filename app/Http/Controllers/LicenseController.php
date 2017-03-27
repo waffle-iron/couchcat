@@ -2,6 +2,7 @@
 
 namespace Couchcat\Http\Controllers;
 
+use Cache;
 use Couchcat\License;
 use Illuminate\Http\Request;
 
@@ -14,7 +15,9 @@ class LicenseController extends Controller
      */
     public function index()
     {
-        $licenses = License::all();
+        $licenses = Cache::rememberForever('licenses', function () {
+            return License::orderBy('vendor','asc')->get();
+        });
         return view('license.index',compact('licenses'));
     }
 
@@ -25,7 +28,7 @@ class LicenseController extends Controller
      */
     public function create()
     {
-        //
+        return view('license.create');
     }
 
     /**
