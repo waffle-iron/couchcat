@@ -16,7 +16,7 @@ class CreateLicensesTable extends Migration
         Schema::create('licenses', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('vendor_id');
-            $table->string('license-stub')->unique();
+            $table->string('statistics_stub')->unique();
             $table->date('starts');
             $table->date('expires')->nullable();
             $table->boolean('public')->default(0);
