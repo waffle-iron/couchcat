@@ -23,14 +23,3 @@ $factory->define(Couchcat\User::class, function (Faker\Generator $faker) {
     ];
 });
 
-$factory->define(Couchcat\License::class, function (Faker\Generator $faker) {
-
-	return [
-		'vendor' => $faker->company,
-		'license-stub' => $faker->word,
-		'starts' => $faker->date,
-		'expires' => $faker->date('Y-m-d','10 years'),
-		'public' => $faker->boolean(2),
-	];
-
-});

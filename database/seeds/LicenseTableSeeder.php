@@ -11,6 +11,6 @@ class LicenseTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(Couchcat\License::class, 20)->create();
+        //
     }
 }
